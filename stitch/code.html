@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ethereal Archive - Personal Diary</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-primary-fixed": "#000000",
+                "surface-container": "#e7e8ea",
+                "on-primary-fixed-variant": "#32008a",
+                "surface-bright": "#f6f6f8",
+                "outline-variant": "#acadaf",
+                "on-tertiary-fixed": "#2a1600",
+                "surface-container-lowest": "#ffffff",
+                "on-error-container": "#510017",
+                "on-surface-variant": "#5a5c5d",
+                "on-tertiary": "#fff0e4",
+                "primary-fixed": "#a98fff",
+                "surface-dim": "#d2d4d8",
+                "on-tertiary-container": "#4b2b00",
+                "on-surface": "#2d2f31",
+                "tertiary": "#835000",
+                "primary": "#652fe7",
+                "on-primary-container": "#280072",
+                "surface-container-highest": "#dbdde0",
+                "secondary-fixed": "#68fadd",
+                "surface": "#f6f6f8",
+                "background": "#f6f6f8",
+                "error-dim": "#a70138",
+                "on-secondary": "#c2ffef",
+                "secondary-container": "#68fadd",
+                "tertiary-container": "#f4a237",
+                "tertiary-dim": "#734500",
+                "primary-dim": "#5819db",
+                "secondary-fixed-dim": "#56ebcf",
+                "error": "#b41340",
+                "secondary": "#006859",
+                "tertiary-fixed-dim": "#e4942a",
+                "on-secondary-fixed": "#00483d",
+                "outline": "#757779",
+                "on-error": "#ffefef",
+                "error-container": "#f74b6d",
+                "primary-container": "#a98fff",
+                "on-background": "#2d2f31",
+                "surface-tint": "#652fe7",
+                "primary-fixed-dim": "#9c7eff",
+                "surface-container-high": "#e1e2e5",
+                "on-primary": "#f7f0ff",
+                "on-secondary-container": "#005d4f",
+                "secondary-dim": "#005a4d",
+                "on-tertiary-fixed-variant": "#573300",
+                "tertiary-fixed": "#f4a237",
+                "surface-variant": "#dbdde0",
+                "surface-container-low": "#f0f1f3",
+                "inverse-primary": "#9a7bff",
+                "inverse-surface": "#0c0e10",
+                "on-secondary-fixed-variant": "#006859",
+                "inverse-on-surface": "#9c9d9f"
+            },
+            "borderRadius": {
+                "DEFAULT": "1rem",
+                "lg": "2rem",
+                "xl": "3rem",
+                "full": "9999px"
+            },
+            "fontFamily": {
+                "headline": ["Plus Jakarta Sans"],
+                "body": ["Be Vietnam Pro"],
+                "label": ["Be Vietnam Pro"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .emotion-glow {
+            box-shadow: 0 0 40px 10px rgba(101, 47, 231, 0.15);
+        }
+        .ai-mesh {
+            background-image: radial-gradient(at 0% 0%, rgba(169, 143, 255, 0.1) 0px, transparent 50%),
+                              radial-gradient(at 100% 100%, rgba(104, 250, 221, 0.1) 0px, transparent 50%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar Shell -->
+<header class="bg-[#f6f6f8] dark:bg-gray-950 fixed top-0 w-full z-50 flex justify-between items-center px-6 py-4 w-full">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#6200EE] dark:text-[#a98fff] p-2 hover:bg-gray-200/50 dark:hover:bg-gray-800/50 transition-colors rounded-full Active: scale-95 duration-200">
+                menu
+            </button>
+<h1 class="text-xl font-bold text-[#6200EE] dark:text-[#a98fff] tracking-tighter font-['Plus_Jakarta_Sans']">Ethereal Archive</h1>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary/20">
+<img alt="User profile" data-alt="close-up portrait of a serene person with soft lighting and natural skin textures in a minimalist photographic style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAw4SCIqSK3BM2qCbRcpAyR6c69lM1zBlZMgRkalk20w-IMkWFKW-uLfsmW_6aRGR55Icxas4zJVkfPwC9PIZtu5rz450xuMfKyTjnw6K9J0cA7w4chSn_zF4YlPyADbw3IvYCJnVlSu9eTjArSl0S2Zx58I2YTrjFP3YDy-QrUgPhvo83tuoEroUEHEQwquKghVqqxunjv7wDaJTpSdsLb23WCBHvm3Y6roIwWGOLTy9lqFHCnz4iFnvbMOLKNWp-2xihj_40HbMrH"/>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-32 px-6 max-w-5xl mx-auto min-h-screen">
+<!-- Header Section: Editorial Layout -->
+<section class="mb-12">
+<span class="text-primary font-bold tracking-widest uppercase text-xs font-headline">Wednesday, May 22</span>
+<h2 class="text-5xl md:text-7xl font-extrabold font-headline text-on-surface mt-2 mb-6 leading-tight tracking-tighter">
+                How does your <br/> <span class="text-primary">soul feel</span> today?
+            </h2>
+</section>
+<!-- Main Workspace: Bento Style -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+<!-- Diary Entry Area -->
+<div class="lg:col-span-7 space-y-6">
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0_-4px_32px_0_rgba(45,47,49,0.04)] relative group">
+<div class="absolute top-8 right-8 flex gap-2">
+<span class="material-symbols-outlined text-outline-variant hover:text-primary cursor-pointer transition-colors">image</span>
+<span class="material-symbols-outlined text-outline-variant hover:text-primary cursor-pointer transition-colors">mic</span>
+</div>
+<label class="block text-sm font-semibold text-outline mb-4">YOUR REFLECTION</label>
+<textarea class="w-full min-h-[400px] bg-transparent border-none focus:ring-0 text-xl leading-relaxed font-body placeholder:text-outline-variant/50" placeholder="Start typing your thoughts here... let them flow like silk across the screen."></textarea>
+<div class="mt-8 flex justify-end">
+<button class="bg-primary text-white px-8 py-4 rounded-full font-headline font-bold flex items-center gap-3 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20">
+                            Perform Analysis
+                            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Analysis Sidebar: The Mood Bloom -->
+<div class="lg:col-span-5 space-y-6">
+<!-- Emotion Selector/Display -->
+<div class="bg-surface-container-low rounded-xl p-8 border border-outline-variant/10">
+<h3 class="text-sm font-bold font-headline text-outline mb-8 tracking-widest uppercase">Detected Resonance</h3>
+<div class="flex items-center justify-between gap-2 px-2">
+<!-- Joy -->
+<div class="flex flex-col items-center gap-2 group cursor-pointer opacity-40 hover:opacity-100 transition-all">
+<span class="text-3xl grayscale group-hover:grayscale-0 transition-all">😊</span>
+<span class="text-[10px] font-bold font-headline uppercase text-tertiary">Joy</span>
+</div>
+<!-- Calm -->
+<div class="flex flex-col items-center gap-2 group cursor-pointer scale-150 relative">
+<div class="absolute inset-0 bg-secondary-container/30 blur-2xl rounded-full scale-150"></div>
+<span class="text-4xl relative">✨</span>
+<span class="text-[10px] font-bold font-headline uppercase text-on-secondary-container relative">Radiant</span>
+</div>
+<!-- Neutral -->
+<div class="flex flex-col items-center gap-2 group cursor-pointer opacity-40 hover:opacity-100 transition-all">
+<span class="text-3xl grayscale group-hover:grayscale-0 transition-all">😐</span>
+<span class="text-[10px] font-bold font-headline uppercase text-outline">Peace</span>
+</div>
+<!-- Sad -->
+<div class="flex flex-col items-center gap-2 group cursor-pointer opacity-40 hover:opacity-100 transition-all">
+<span class="text-3xl grayscale group-hover:grayscale-0 transition-all">☁️</span>
+<span class="text-[10px] font-bold font-headline uppercase text-primary">Melancholy</span>
+</div>
+<!-- High energy -->
+<div class="flex flex-col items-center gap-2 group cursor-pointer opacity-40 hover:opacity-100 transition-all">
+<span class="text-3xl grayscale group-hover:grayscale-0 transition-all">🔥</span>
+<span class="text-[10px] font-bold font-headline uppercase text-error">Vitality</span>
+</div>
+</div>
+</div>
+<!-- AI Insights Card -->
+<div class="ai-mesh bg-surface-container-lowest rounded-xl p-8 shadow-sm border border-outline-variant/10 min-h-[300px]">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">psychology</span>
+</div>
+<h3 class="text-lg font-bold font-headline">Gemini Insight</h3>
+</div>
+<div class="space-y-4">
+<p class="text-on-surface-variant leading-relaxed font-body">
+                            Your words today carry a profound sense of clarity. There is a recurring pattern of <span class="text-secondary font-bold">restorative growth</span> in how you describe your morning routine.
+                        </p>
+<p class="text-on-surface-variant leading-relaxed font-body">
+                            By focusing on the small wins, you've naturally shifted your baseline mood from 'searching' to 'observing'. This perspective is a powerful tool for your emotional resilience.
+                        </p>
+</div>
+<div class="mt-8 pt-6 border-t border-outline-variant/10">
+<div class="flex flex-wrap gap-2">
+<span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-xs font-bold font-headline">Balanced</span>
+<span class="bg-tertiary-container text-on-tertiary-container px-4 py-1 rounded-full text-xs font-bold font-headline">Creative Flux</span>
+<span class="bg-primary-container/20 text-primary px-4 py-1 rounded-full text-xs font-bold font-headline">Growth Mindset</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar Shell -->
+<nav class="bg-[#f0f1f3]/70 dark:bg-gray-900/70 backdrop-blur-xl fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-2 rounded-t-[3rem] z-50 shadow-[0_-4px_32px_0_rgba(45,47,49,0.04)]">
+<a class="flex flex-col items-center justify-center bg-[#652fe7] text-white rounded-full p-3 Active: scale-90 duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" data-icon="edit_note">edit_note</span>
+<span class="font-['Be_Vietnam_Pro'] text-[11px] font-medium">Journal</span>
+</a>
+<a class="flex flex-col items-center justify-center text-gray-500 dark:text-gray-400 p-3 hover:text-[#6200EE] dark:hover:text-[#a98fff] transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="font-['Be_Vietnam_Pro'] text-[11px] font-medium">Insights</span>
+</a>
+<a class="flex flex-col items-center justify-center text-gray-500 dark:text-gray-400 p-3 hover:text-[#6200EE] dark:hover:text-[#a98fff] transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="auto_stories">auto_stories</span>
+<span class="font-['Be_Vietnam_Pro'] text-[11px] font-medium">Memories</span>
+</a>
+<a class="flex flex-col items-center justify-center text-gray-500 dark:text-gray-400 p-3 hover:text-[#6200EE] dark:hover:text-[#a98fff] transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-['Be_Vietnam_Pro'] text-[11px] font-medium">Settings</span>
+</a>
+</nav>
+</body></html>
