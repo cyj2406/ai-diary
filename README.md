@@ -74,7 +74,7 @@ https://docs.google.com/spreadsheets/d/15KB9bV9DKZ5b43qCRMyErEK1_T2nLhUr4_svPSYE
 프롬프트:
 
 웹앱 URL
-https://script.google.com/macros/s/AKfycbzfj05O6X5lN4KbL9RjEIz73-AGlCjyG70bByNbDmJeZ0ufZw_U7dbiwLZsqiyjB87H/exec
+
 
 웹앱 URL을 .env.local 파일에 등록하고 적용해줘.
 
