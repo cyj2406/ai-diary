@@ -60,7 +60,6 @@ gemini를 통해 일기의 제목을 자동으로 생성해서 이모지 영역 
 - 해당 구글 시트에서 [파일]-[공유]-[다른 사용자와 공유]-[링크가 있는 모든 사용자] 설정
 - [링크 복사] 클릭
 
-https://docs.google.com/spreadsheets/d/15KB9bV9DKZ5b43qCRMyErEK1_T2nLhUr4_svPSYEBOQ/edit?usp=sharing
 
 해당 구글 시트에는 datetime, diary 필드가 구성되어 있어. 해당 링크의 구글 시트에 일기 작성 시간과 일기 내용을 저장하는 apps script를 만들어줘.
 
