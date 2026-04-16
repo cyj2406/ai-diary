@@ -94,16 +94,7 @@ https://docs.google.com/spreadsheets/d/15KB9bV9DKZ5b43qCRMyErEK1_T2nLhUr4_svPSYE
 ---------------------------------------------------------------------------------------------------
 * GitHub 최종 업로드
 
-git config --global user.email "cyj2406@gmail.com"
-git config --global user.name "cyj2406"
 
-echo "# ai-diary" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/cyj2406/ai-diary.git
-git push -u origin main
 깃허브 연동해줘
 ---------------------------------------------------------------------------------------------------
 * vercel 배포
